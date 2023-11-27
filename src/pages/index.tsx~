@@ -8,6 +8,7 @@ import { IPaginationProps } from '../pagination/Pagination';
 import { Main } from '../templates/Main';
 import { AppConfig } from '../utils/AppConfig';
 import { getAllPosts } from '../utils/Content';
+export const config = { runtime: 'edge' };
 
 const Index = (props: IBlogGalleryProps) => (
   <Main
