@@ -9,7 +9,7 @@ import { Main } from '../templates/Main';
 import { AppConfig } from '../utils/AppConfig';
 import { getAllPosts } from '../utils/Content';
 import { convertTo2D } from '../utils/Pagination';
-export const config = { runtime: 'edge' };
+
 type IPageUrl = {
   page: string;
 };
