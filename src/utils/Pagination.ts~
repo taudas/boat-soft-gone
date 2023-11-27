@@ -1,5 +1,3 @@
-export const config = { runtime: 'edge' };
-
 export function convertTo2D<T>(arr: T[], size: number) {
   const res: T[][] = [];
 
