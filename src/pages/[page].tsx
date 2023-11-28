@@ -10,7 +10,7 @@ import { AppConfig } from '../utils/AppConfig';
 import { getAllPosts } from '../utils/Content';
 import { convertTo2D } from '../utils/Pagination';
 
-export const config = { runtime: 'edge' };
+
 
 type IPageUrl = {
   page: string;
@@ -21,6 +21,8 @@ const PaginatePosts = (props: IBlogGalleryProps) => (
     <BlogGallery posts={props.posts} pagination={props.pagination} />
   </Main>
 );
+
+export const config = { runtime: 'edge' };
 
 export const getStaticPaths: GetStaticPaths<IPageUrl> = async () => {
   const posts = getAllPosts(['slug']);
