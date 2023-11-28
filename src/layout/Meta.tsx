@@ -7,6 +7,7 @@ import { AppConfig } from '../utils/AppConfig';
 import { addTrailingSlash } from '../utils/Url';
 
 export const config = { runtime: 'edge' };
+export const runtime = 'edge';
 
 type IMetaProps = {
   title: string;

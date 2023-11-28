@@ -6,7 +6,7 @@ import { useRouter } from 'next/router';
 import { AppConfig } from '../utils/AppConfig';
 import { addTrailingSlash } from '../utils/Url';
 
-export const runtime = 'edge' // 'nodejs' (default) | 'edge'
+export const config = { runtime: 'edge' };
 
 type IMetaProps = {
   title: string;
