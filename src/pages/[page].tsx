@@ -21,6 +21,8 @@ const PaginatePosts = (props: IBlogGalleryProps) => (
 );
 
 export const config = { runtime: 'edge' };
+export const runtime = 'edge';
+
 
 export const getStaticPaths: GetStaticPaths<IPageUrl> = async () => {
   const posts = getAllPosts(['slug']);
