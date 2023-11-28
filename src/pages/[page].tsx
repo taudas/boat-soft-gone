@@ -10,8 +10,6 @@ import { AppConfig } from '../utils/AppConfig';
 import { getAllPosts } from '../utils/Content';
 import { convertTo2D } from '../utils/Pagination';
 
-
-
 type IPageUrl = {
   page: string;
 };
