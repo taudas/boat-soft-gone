@@ -4,8 +4,6 @@ const withBundleAnalyzer = require('@next/bundle-analyzer')({
 });
 
 const baseUrl = '';
-const nextConfig = { experimental: { runtime: 'edge'} };
-
 
 module.exports = withBundleAnalyzer({
   poweredByHeader: false,
